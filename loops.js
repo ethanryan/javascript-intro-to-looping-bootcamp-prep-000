@@ -93,10 +93,12 @@ function maybeTrue() {
 // } while (array.length > 0 && maybeTrue)
 
 
+//had to change name to doWhileLoop -- note doWhile like instructions say!
+
 function doWhileLoop(array) {
   do {
     //array.pop(elements);
-    array.pop(1)
+    array.pop(1);
     //array.length--;
     //elements--;
     //array--;
